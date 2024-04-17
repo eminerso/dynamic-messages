@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+#message_add{
+    width: 100px;
+    height: 70px;
+    padding: 20px;
+    display: flex;
+   text-align: center;
+   justify-content: center;
+   position: relative;
+   top: 100px;
+   left: 200px;
+}
+#add{
+    cursor: pointer;
+    background-color: rgb(135, 135, 255);
+}
+#box{
+    width: 150px;
+    color: #080805;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+.messages{
+width: 100%;
+height: 30px;
+background-color: rgb(162, 65, 253);
+margin-top: 10px;
+padding: 5px;
+border-radius: 10px;
+}
